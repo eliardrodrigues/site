@@ -465,6 +465,16 @@ nav .close-icon {
         transition: 0.7s;
     }
 
+    
+    .btn {
+        background-color: #4f9cf9;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+    }
+
     .ul.open {
         clip-path: circle(141.4% at 100% 0);
     }
@@ -563,5 +573,6 @@ nav .close-icon {
         .faca-mais .faca-mais-text {
             font-size: 40px;
         }
+
     }
 }
