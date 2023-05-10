@@ -136,6 +136,10 @@ nav .close-icon {
     margin: 18px;
 }
 
+.depoimentos .cards-item {
+    width: 100%;
+}
+
 /* aqui vao as configuraçoes do section/container faça mais */
 
 .faca-mais .container {
@@ -489,7 +493,7 @@ nav .close-icon {
     }
 
     .faca-mais .container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .faca-mais .faca-mais-text h3 {
@@ -536,6 +540,10 @@ nav .close-icon {
     }
 
     /* pagina contato responsivo */
+
+    .contato .contato-info {
+        flex-direction: column-reverse;
+    }
 
     .contato-info .right-side,
     .contato-info .left-side {
