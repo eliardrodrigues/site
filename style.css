@@ -25,7 +25,7 @@ p {
     color: #0000009c;
 }
 
-.conteiner {
+.container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
@@ -136,9 +136,9 @@ nav .close-icon {
     margin: 18px;
 }
 
-/* aqui vao as configuraçoes do section/conteiner faça mais */
+/* aqui vao as configuraçoes do section/container faça mais */
 
-.faca-mais .conteiner {
+.faca-mais .container {
     display: flex;
     align-items: center;
 }
@@ -387,7 +387,8 @@ nav .close-icon {
     padding: 30px;
     background-color: #4f9cf9;
     border-radius: 14px;
-    margin-right: 50px;
+    margin-right: 40px;
+    margin-left: 10px;
     height: fit-content;
 }
 
@@ -414,10 +415,10 @@ nav .close-icon {
 
 .contato-info .right-side input {
     display: block;
-    width: 100%;
+    width: 95%;
     margin-bottom: 10px;
     height: 47px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 9px;
     transition: 0.3s;
     border: 1px solid #f1f1f1;
@@ -436,7 +437,7 @@ nav .close-icon {
     border-radius: 9px;
     margin-bottom: 10px;
     padding: 15px;
-    width: 100%;
+    width: 85%;
     transition: 0.3s;
     resize: none;
 
