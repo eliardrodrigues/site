@@ -466,7 +466,7 @@ nav .close-icon {
     }
 
     
-    .btn {
+    .btn .btn.animate-btn {
         background-color: #4f9cf9;
         color: white;
         padding: 5px 10px;
